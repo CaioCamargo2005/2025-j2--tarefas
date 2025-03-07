@@ -32,7 +32,7 @@ public class IndexController {
                 break;
         } 
         ui.addAttribute("texto", texto);
-        return "mensagem";
+        return "WEB-INF/mensagem";
     }
 }
 
