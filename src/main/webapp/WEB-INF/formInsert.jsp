@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1>Nova Tarefa</h1>
-        <form action="/tarefa/insert" method="post">
+        <form action="/tarefas/insert" method="post">
             <label>Descrição</label>
             <input type="text" name="descricao" />
             <button type="submit">Salvar</button>
